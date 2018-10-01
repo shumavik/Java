@@ -14,8 +14,8 @@ public class Main {
         int k = 1;
 
         for (int i = 0; i < (arr.length-1); i++)
-            if (arr[1] != arr[i+1])
-                k +=1;
+            if (arr[i] != arr[i+1])
+                k += 1;
 
         System.out.println(k);
         //System.out.println("Hello World!");
