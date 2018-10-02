@@ -11,17 +11,20 @@ public class Main {
         for (int i = 0; i < n; i++)
             for (int j = 0; j < n ; j++)
                 mas[i][j] = num.nextInt();
+
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++){
-                if (mas[i][j] != mas[j][i]3)
+              //  System.out.print(mas[i][j]);
+                if (mas[i][j] != mas[j][i])
                  flag = false;
             }
+        //System.out.println();
         }
 
         if (flag == true)
-            System.out.println("YES");
+            System.out.println("yes");
         else
-            System.out.println("NO");
+            System.out.println("no");
         //System.out.println("Hello World!");
     }
 }
